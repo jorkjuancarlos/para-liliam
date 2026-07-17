@@ -28,15 +28,13 @@ const anterior = document.getElementById("anterior");
 const siguiente = document.getElementById("siguiente");
 
 const imagenes = [
-
-"imagenes/foto1.jpeg",
-"imagenes/foto2.jpeg",
-"imagenes/foto3.jpeg",
-"imagenes/foto4.jpeg",
-"imagenes/foto5.jpeg",
-"imagenes/foto6.jpeg",
-"imagenes/foto7.jpeg"
-
+"foto1.jpeg",
+"foto2.jpeg",
+"foto3.jpeg",
+"foto4.jpeg",
+"foto5.jpeg",
+"foto6.jpeg",
+"foto7.jpeg"
 ];
 
 const titulos=[
