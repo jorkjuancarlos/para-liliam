@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Liliam ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- CORAZONES -->
+
+    <div class="corazones"></div>
+
+    <!-- PANTALLA DE BIENVENIDA -->
+
+    <section id="inicio" class="pantalla">
+
+        <h1>
+            💖 Un pequeño regalo para la persona más especial de mi vida 💖
+        </h1>
+
+        <h2>
+            Para ti, Liliam ❤️
+        </h2>
+
+        <p>
+
+            Hoy quiero regalarte algo hecho con mucho cariño.
+
+            Espero que cuando termines de verlo,
+
+            sonrías tanto como yo sonrío cuando estoy contigo.
+
+        </p>
+
+        <button id="btnComenzar">
+
+            🎁 Abrir mi regalo
+
+        </button>
+
+    </section>
+
+    <!-- PANTALLA DE CARGA -->
+
+    <section id="carga" class="pantalla oculto">
+
+        <h1>
+
+            Preparando tu sorpresa...
+
+        </h1>
+
+        <div class="barra">
+
+            <div class="progreso" id="progreso"></div>
+
+        </div>
+
+        <p id="textoCarga">
+
+            ❤️ Recordando nuestros momentos...
+
+        </p>
+
+    </section>
+
+    <!-- PORTADA -->
+
+    <section id="portada" class="pantalla oculto">
+
+        <img src="imagenes/portada.jpeg" class="fotoPrincipal">
+
+        <h1>
+
+            ❤️ Feliz 30 meses mi amor ❤️
+
+        </h1>
+
+        <p>
+
+            Desde aquel
+
+            <strong>17 de enero del 2024</strong>
+
+            comenzó la mejor historia de mi vida.
+
+        </p>
+
+        <button id="btnGaleria">
+
+            Ver nuestros recuerdos 📸
+
+        </button>
+
+    </section>
+    <!-- GALERÍA -->
+
+<section id="galeria" class="pantalla oculto">
+
+    <h1>📸 Nuestros recuerdos ❤️</h1>
+
+    <img id="fotoGaleria"
+         src="imagenes/foto1.jpeg"
+         class="fotoPrincipal">
+
+    <h2 id="tituloFoto">
+        Nuestro primer recuerdo ❤️
+    </h2>
+
+    <p id="descripcionFoto">
+
+        Cada momento contigo ha sido un regalo para mi vida.
+
+    </p>
+
+    <div class="botones">
+
+        <button id="anterior">
+
+            ⬅ Anterior
+
+        </button>
+
+        <button id="siguiente">
+
+            Siguiente ➡
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- CARTA -->
+
+<section id="carta" class="pantalla oculto">
+
+    <h1>💌 Una carta para ti</h1>
+
+    <div id="textoCarta" class="carta"></div>
+
+    <button id="btnEstatua">
+
+        Continuar ❤️
+
+    </button>
+
+</section>
+
+<!-- FOTO ESTATUA -->
+
+<section id="estatua" class="pantalla oculto">
+
+    <img src="imagenes/estatua.jpeg"
+         class="fotoPrincipal">
+
+    <h1>
+
+        Mi lugar favorito siempre será donde estés tú ❤️
+
+    </h1>
+
+    <p>
+
+        Gracias por acompañarme en cada aventura.
+
+    </p>
+
+    <button id="btnCapibaras">
+
+        Una última sorpresa 🥹
+
+    </button>
+
+</section>
+
+<!-- FINAL -->
+
+<section id="final" class="pantalla oculto">
+
+    <img src="imagenes/capibaras.jpeg"
+         class="fotoPrincipal">
+
+    <h1>
+
+        Siempre serás mi Capibara 🦫❤️
+
+    </h1>
+
+    <h2>
+
+        Y mi Pulguita Aventurera 🥰
+
+    </h2>
+
+    <p>
+
+        Gracias por estos 30 meses.
+
+        Te amo muchísimo, Liliam.
+
+    </p>
+
+    <button onclick="location.reload()">
+
+        ❤️ Volver a vivir nuestra historia
+
+    </button>
+
+</section>
+
+    <script src="script.js"></script>
+    
+    <audio id="musica" loop>
+    <source src="musica/cancion.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+
+</html>
