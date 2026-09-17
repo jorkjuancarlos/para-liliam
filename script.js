@@ -7,6 +7,7 @@ const galeria = document.getElementById("galeria");
 const carta = document.getElementById("carta");
 const estatua = document.getElementById("estatua");
 const final = document.getElementById("final");
+const universo = document.getElementById("universo");
 
 // ===== BOTONES =====
 
@@ -135,12 +136,40 @@ portada.style.display="flex";
 },35);
 
 }
-// ===== PORTADA A GALERÍA =====
+// ===== PORTADA AL UNIVERSO =====
+
+
+const escenaGirasoles = document.getElementById("escenaGirasoles");
+const escenaEspacio = document.getElementById("escenaEspacio");
 
 btnGaleria.onclick = function(){
 
+    // Ocultar portada
     portada.style.display = "none";
-    galeria.style.display = "flex";
+
+    // Mostrar universo
+    universo.style.display = "flex";
+
+    // Empezar con los girasoles
+    escenaGirasoles.style.display = "flex";
+    escenaEspacio.style.display = "none";
+
+    // Después de unos segundos pasamos al espacio
+    setTimeout(function(){
+
+        escenaGirasoles.classList.add("desaparecer");
+
+        setTimeout(function(){
+
+            escenaGirasoles.style.display = "none";
+
+            escenaEspacio.style.display = "flex";
+
+            escenaEspacio.classList.add("aparecer");
+
+        }, 1500);
+
+    }, 5000);
 
 }
 
